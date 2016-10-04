@@ -18,6 +18,9 @@ gem 'jwt'
 #Authentication
 gem 'simple_command'
 
+#using paperclip
+gem "paperclip", "~> 5.0.0.beta1"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
