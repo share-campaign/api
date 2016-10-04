@@ -5,12 +5,12 @@ class User < ApplicationRecord
   ROLES = %i[user moderator admin]
 
   def has_role?(role)
-    self.roles == role
+    self.role == role
   end
 
   private
 
   def init
-    self.roles ||= 'user'
+    self.role ||= ROLES.first()
   end
 end
