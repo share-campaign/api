@@ -1,5 +1,5 @@
 class AddCampaignToPricture < ActiveRecord::Migration[5.0]
   def change
-    add_column :prictures, :campaign, :reference
+    add_reference :pictures, :campaigns, foreign_key: true
   end
 end
