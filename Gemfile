@@ -19,7 +19,9 @@ gem 'jwt'
 gem 'simple_command'
 
 #using paperclip
-gem "paperclip", "~> 5.0.0.beta1"
+gem 'paperclip', '~> 5.0.0.beta1'
+#video encode
+gem 'paperclip-av-transcoder'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
